@@ -1,0 +1,86 @@
+*{
+    margin: o;
+    padding: o;}
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px; }
+
+nav{
+    display: flex;
+    gap: 20px ;
+    padding-left: 300px;
+    flex-basis: 60%;}
+nav a{
+
+    text-decoration: none;}
+.logo{padding-left: 80px;}
+button{margin-right: 80px;
+      background-color: red;
+      color: white;
+      border: none;
+    width: 50px;
+height: 20px;}             
+.heading{display: flex;
+padding-top: 30px;
+font-size: 6vh;
+line-height: 2em;
+padding-left: 200px;}
+.paragraph{width: 50%;}    
+p{font-size: small;
+line-height: 1em;
+width: 400px;}
+.img1{padding-top: 80px;}
+.bone{width: 150px;
+   height: 30px;
+   background-color: red;
+color: white;
+border: none;
+margin-left: 200px;}
+.btwo{width: 150px;
+    height: 30px;
+background-color: white;
+color: gray;
+border:1px solid grey;}  
+h6{margin-left: 200px;}
+.icon{
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+    padding-left:0px;} 
+
+.buttons{display: flex;}    
+    
+@media (max-width:900px)
+{.heading{display: block;
+padding-left: 0px;}
+p{width: 300px;}}
+
+@media (max-width:400px)
+{.bone{margin-left: 0px;}}
+
+@media (max-width:400px)
+{.btwo{margin-left:0px ;
+      margin-top: 20px;}}
+
+@media (max-width:400px)
+{.buttons{display: block;}}
+
+@media (max-width:400px)
+{h6{margin-left: 0px;}}
+
+@media (max-width:400px)
+{.icon{display: block;
+      margin-left: 0px;}}
+
+@media (max-width:700px)
+{.navigation{display: block;}}      
+
+@media (max-width:700px)
+{nav{display: block;
+    padding-left: 40px;}}
+
+@media (max-width:400px)
+{.logo{padding-left: 10px;}}
+@media (max-width:400px)
+{.flip{margin-left: 0px;}}
